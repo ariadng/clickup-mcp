@@ -1,0 +1,68 @@
+{
+  "name": "clickup-mcp",
+  "version": "1.0.0",
+  "description": "ClickUp MCP Server for AI assistants - Model Context Protocol implementation for ClickUp task management",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "clickup-mcp": "./dist/index.js"
+  },
+  "files": [
+    "dist/**/*",
+    "LICENSE",
+    "README.md",
+    "CLAUDE.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "test": "jest",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build && npm test",
+    "prepack": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "axios": "^1.6.0",
+    "commander": "^11.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "tsx": "^4.0.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0",
+    "ts-jest": "^29.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "clickup",
+    "ai",
+    "assistant",
+    "task-management",
+    "model-context-protocol",
+    "claude",
+    "windsurf",
+    "cursor",
+    "productivity",
+    "automation"
+  ],
+  "author": {
+    "name": "Aria Dhanang",
+    "email": "ariadhanang@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariadhanang/clickup-mcp.git"
+  },
+  "homepage": "https://github.com/ariadhanang/clickup-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/ariadhanang/clickup-mcp/issues"
+  }
+}
