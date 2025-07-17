@@ -17,13 +17,13 @@ export class Logger {
 
   info(message: string, meta?: any): void {
     if (this.level >= LogLevel.INFO) {
-      console.log(`[INFO] ${new Date().toISOString()} ${message}`, meta || '');
+      console.error(`[INFO] ${new Date().toISOString()} ${message}`, meta || '');
     }
   }
 
   debug(message: string, meta?: any): void {
     if (this.level >= LogLevel.DEBUG) {
-      console.log(`[DEBUG] ${new Date().toISOString()} ${message}`, meta || '');
+      console.error(`[DEBUG] ${new Date().toISOString()} ${message}`, meta || '');
     }
   }
 

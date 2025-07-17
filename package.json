@@ -1,6 +1,6 @@
 {
   "name": "clickup-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ClickUp MCP Server for AI assistants - Model Context Protocol implementation for ClickUp task management",
   "main": "dist/index.js",
   "type": "module",

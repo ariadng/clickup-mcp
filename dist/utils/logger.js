@@ -16,12 +16,12 @@ export class Logger {
     }
     info(message, meta) {
         if (this.level >= LogLevel.INFO) {
-            console.log(`[INFO] ${new Date().toISOString()} ${message}`, meta || '');
+            console.error(`[INFO] ${new Date().toISOString()} ${message}`, meta || '');
         }
     }
     debug(message, meta) {
         if (this.level >= LogLevel.DEBUG) {
-            console.log(`[DEBUG] ${new Date().toISOString()} ${message}`, meta || '');
+            console.error(`[DEBUG] ${new Date().toISOString()} ${message}`, meta || '');
         }
     }
     setLevel(level) {
