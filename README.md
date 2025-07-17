@@ -2,6 +2,24 @@
 
 A Node.js implementation of the Model Context Protocol (MCP) server that provides AI assistants with access to ClickUp's essential task management functionality.
 
+## Quick Setup
+
+**🚀 Get started in 30 seconds:**
+
+| AI Assistant | Setup Guide |
+|--------------|-------------|
+| 🤖 **Claude Desktop** | [Jump to setup →](#claude-desktop-integration) |
+| 🌊 **Windsurf** | [Jump to setup →](#windsurf-integration) |
+| 🔮 **Cursor** | [Jump to setup →](#cursor-integration) |
+
+## Prerequisites
+
+Before setting up, make sure you have:
+
+1. **ClickUp API Key** - Get your personal API token from [ClickUp API settings](https://app.clickup.com/settings/apps)
+2. **Node.js ≥18.0.0** - Required for running the MCP server
+3. **AI Assistant** - Claude Desktop, Windsurf, or Cursor installed
+
 ## Features
 
 - **8 Essential MCP Tools**: Complete task management capabilities
@@ -11,6 +29,21 @@ A Node.js implementation of the Model Context Protocol (MCP) server that provide
 - **STDIO Transport**: Full compatibility with Claude Desktop and MCP clients
 - **CLI Interface**: Easy-to-use command-line interface
 - **TypeScript**: Fully typed for better development experience
+
+## Table of Contents
+
+- [Quick Setup](#quick-setup)
+- [Installation](#installation)
+- [Usage](#usage)
+- [MCP Tools](#mcp-tools)
+- [IDE and AI Assistant Integration](#ide-and-ai-assistant-integration)
+  - [Claude Desktop Integration](#claude-desktop-integration)
+  - [Windsurf Integration](#windsurf-integration)
+  - [Cursor Integration](#cursor-integration)
+- [Configuration](#configuration-file)
+- [Development](#development)
+- [API Key Setup](#api-key-format)
+- [License](#license)
 
 ## Installation
 
